@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
-	"github.com/sijms/go-ora/trace"
+	"github.com/nanitor/go-ora/converters"
+	"github.com/nanitor/go-ora/network"
+	"github.com/nanitor/go-ora/trace"
 )
 
 type ConnectionState int

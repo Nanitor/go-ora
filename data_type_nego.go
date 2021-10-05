@@ -5,8 +5,9 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/network"
 	"time"
+
+	"github.com/nanitor/go-ora/network"
 )
 
 type DataTypeNego struct {

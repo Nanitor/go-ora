@@ -3,7 +3,7 @@ package network
 import (
 	"strconv"
 
-	"github.com/sijms/go-ora/trace"
+	"github.com/nanitor/go-ora/trace"
 )
 
 type ClientData struct {

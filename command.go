@@ -7,10 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
 	"regexp"
 	"strings"
+
+	"github.com/nanitor/go-ora/converters"
+	"github.com/nanitor/go-ora/network"
 )
 
 type StmtType int

@@ -10,10 +10,11 @@ import (
 	"crypto/sha1"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/network"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/nanitor/go-ora/network"
 )
 
 // E infront of the variable means encrypted

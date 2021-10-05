@@ -14,7 +14,7 @@ import (
 	"strings"
 	"text/template"
 
-	_ "github.com/sijms/go-ora"
+	_ "github.com/nanitor/go-ora"
 )
 
 var testValues = []struct {

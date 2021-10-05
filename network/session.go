@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sijms/go-ora/converters"
+	"github.com/nanitor/go-ora/converters"
 )
 
 type Data interface {
