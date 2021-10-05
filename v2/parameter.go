@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/nanitor/go-ora/v2/network"
 )
 
 type OracleType int

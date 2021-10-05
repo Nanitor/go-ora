@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sijms/go-ora/v2/advanced_nego"
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
-	"github.com/sijms/go-ora/v2/trace"
+	"github.com/nanitor/go-ora/v2/advanced_nego"
+	"github.com/nanitor/go-ora/v2/converters"
+	"github.com/nanitor/go-ora/v2/network"
+	"github.com/nanitor/go-ora/v2/trace"
 )
 
 type ConnectionState int

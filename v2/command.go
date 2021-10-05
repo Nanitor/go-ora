@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/nanitor/go-ora/v2/converters"
+	"github.com/nanitor/go-ora/v2/network"
 
 	//charmap "golang.org/x/text/encoding/charmap"
 	"regexp"

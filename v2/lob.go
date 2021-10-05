@@ -4,7 +4,8 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/v2/network"
+
+	"github.com/nanitor/go-ora/v2/network"
 )
 
 type Lob struct {

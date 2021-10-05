@@ -12,11 +12,12 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/v2/network"
-	"github.com/sijms/go-ora/v2/network/security"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/nanitor/go-ora/v2/network"
+	"github.com/nanitor/go-ora/v2/network/security"
 )
 
 // E infront of the variable means encrypted

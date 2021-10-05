@@ -6,8 +6,9 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/v2/network/security"
 	"math/big"
+
+	"github.com/nanitor/go-ora/v2/network/security"
 )
 
 type dataIntegrityService struct {

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sijms/go-ora/v2/trace"
+	"github.com/nanitor/go-ora/v2/trace"
 )
 
 type ClientData struct {

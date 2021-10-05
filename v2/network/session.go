@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sijms/go-ora/v2/converters"
+	"github.com/nanitor/go-ora/v2/converters"
 )
 
 type Data interface {
