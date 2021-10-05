@@ -3,7 +3,6 @@ package go_ora
 import (
 	"errors"
 	"fmt"
-	"log"
 	"net/url"
 	"path"
 	"strconv"
@@ -144,19 +143,15 @@ func NewConnectionString() *ConnectionString {
 }
 
 func newConnectionStringFromUrl(databaseUrl string) (*ConnectionString, error) {
-	log.Println("BIGFIXING")
 	u, err := url.Parse(databaseUrl)
-	log.Println("Below!")
 	if err != nil {
 		return nil, err
 	}
-	log.Println("Below!1")
 	q := u.Query()
 	p := u.Port()
 	ret := NewConnectionString()
 	ret.UserID = u.User.Username()
 	ret.Password, _ = u.User.Password()
-	log.Println("Below!2")
 	if p != "" {
 		port, err := strconv.Atoi(p)
 		if err != nil {
