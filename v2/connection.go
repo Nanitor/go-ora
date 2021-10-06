@@ -235,7 +235,6 @@ func (conn *Connection) Prepare(query string) (driver.Stmt, error) {
 }
 
 func (conn *Connection) Ping(_ context.Context) error {
-	fmt.Println("BIGFIXING2!!!!")
 	conn.connOption.Tracer.Print("Ping")
 	conn.session.ResetBuffer()
 	return (&simpleObject{

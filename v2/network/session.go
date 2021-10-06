@@ -881,7 +881,7 @@ func (session *Session) GetClr() (output []byte, err error) {
 		output, err = session.read(int(size))
 		return
 	}
-	fmt.Println("BIGFIXING!!!!")
+
 	if !session.UseBigClrChunks {
 		buff := &bytes.Buffer{}
 		for {
