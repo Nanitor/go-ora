@@ -57,9 +57,9 @@ func (op *ConnectionOption) UpdateServers() {
 }
 
 func (op *ConnectionOption) ConnectionData() string {
-	if len(op.connData) > 0 {
-		return op.connData
-	}
+	// if len(op.connData) > 0 {
+	// 	return op.connData
+	// }
 	FulCid := "(CID=(PROGRAM=" + op.ClientData.ProgramPath + ")(HOST=" + op.ClientData.HostName + ")(USER=" + op.ClientData.UserName + "))"
 	address := "(ADDRESS=(PROTOCOL=" + op.Protocol + ")(HOST=" + op.Host + ")(PORT=" + strconv.Itoa(op.Port) + "))"
 	result := "(CONNECT_DATA="
@@ -75,9 +75,10 @@ func (op *ConnectionOption) ConnectionData() string {
 	//
 	//	}
 	//}
-	if op.InstanceName != "" {
-		result += "(INSTANCE_NAME=" + op.InstanceName + ")"
-	}
+	//We don't care about instance names!
+	// if op.InstanceName != "" {
+	// 	result += "(INSTANCE_NAME=" + op.InstanceName + ")"
+	// }
 	result += FulCid
 	return "(DESCRIPTION=" + address + result + "))"
 }
